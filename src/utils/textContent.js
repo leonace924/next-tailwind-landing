@@ -36,6 +36,10 @@ const content = {
       },
     ],
   },
+  newsletter: {
+    title: 'Our monthly newsletter, straight to your inbox',
+    backgroundImage: './images/img-form-background.png',
+  },
 };
 
 export default content;
