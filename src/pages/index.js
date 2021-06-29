@@ -1,6 +1,19 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import React from 'react';
+import Layout from '@/components/Layout/Layout';
+import Hero from '@/src/sections/Home/Hero/Hero';
+import TopBlogs from '@/src/sections/Home/TopBlogs/TopBlogs';
+import Newsletter from '@/src/sections/Home/Newsletter/Newsletter';
+import content from '@/src/utils/textContent';
 
-export default function Home() {
-  return <div className="mx-auto max-w-7xl">{`test`}</div>;
-}
+const Home = () => {
+  const { hero, topBlogs, newsletter } = content;
+  return (
+    <Layout>
+      <Hero content={hero} />
+      <TopBlogs content={topBlogs} />
+      <Newsletter content={newsletter} />
+    </Layout>
+  );
+};
+
+export default Home;
