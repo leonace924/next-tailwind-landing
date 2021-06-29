@@ -1,0 +1,8 @@
+.checkbox {
+  input:checked + div {
+    @apply border-black;
+  }
+  input:checked + div svg {
+    @apply block;
+  }
+}
