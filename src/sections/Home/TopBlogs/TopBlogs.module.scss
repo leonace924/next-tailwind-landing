@@ -1,0 +1,23 @@
+.blog {
+  &Image {
+    @apply pb-landscape lg:pb-portrait;
+  }
+
+  &:first-of-type,
+  &:last-of-type {
+    .blogImage {
+      @apply pb-landscape;
+    }
+  }
+
+  &:not(:last-of-type) {
+    @apply mb-7;
+  }
+
+  &:nth-of-type(odd) {
+    @apply lg:col-start-1 lg:col-span-4 xl:col-start-1 xl:col-span-5;
+  }
+  &:nth-of-type(even) {
+    @apply xl:col-start-8 xl:col-span-5 lg:col-start-7 lg:col-span-4;
+  }
+}
