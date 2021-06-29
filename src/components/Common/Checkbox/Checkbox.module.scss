@@ -3,6 +3,6 @@
     @apply border-black;
   }
   input:checked + div svg {
-    @apply block;
+    @apply opacity-100;
   }
 }

@@ -4,16 +4,16 @@ import styles from './Checkbox.module.scss';
 const Checkbox = ({ label }) => {
   return (
     <div className={styles.checkbox}>
-      <label className="flex items-start cursor-pointer">
+      <label className="inline-flex items-start cursor-pointer">
         <input
           type="checkbox"
           name="custom-checkbox"
           value="yes"
           className="absolute w-4 h-4 opacity-0"
         />
-        <div className="flex items-center justify-center flex-shrink-0 w-4 h-4 mr-2 bg-transparent border-2 border-black rounded-sm focus-within:border-black">
+        <div className="flex items-center justify-center flex-shrink-0 w-4 h-4 mr-2 bg-transparent border border-black rounded-sm focus-within:border-black">
           <svg
-            className="hidden w-3 h-3 text-black pointer-events-none fill-current"
+            className="w-3 h-3 text-black opacity-0 pointer-events-none fill-current"
             version="1.1"
             viewBox="0 0 17 12"
             xmlns="http://www.w3.org/2000/svg"
