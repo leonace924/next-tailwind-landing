@@ -23,6 +23,18 @@ module.exports = {
       lineHeight: {
         'extra-tight': '1.125',
       },
+      margin: {
+        25: '6.25rem',
+      },
+      zIndex: {
+        1000: 1000,
+      },
+      borderRadius: {
+        '4xl': '2.75rem',
+      },
+      width: {
+        50: '12.5rem',
+      },
     },
   },
   variants: {
