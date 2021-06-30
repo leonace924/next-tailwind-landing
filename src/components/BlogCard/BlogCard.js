@@ -1,15 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-const BlogCard = ({ blog, portrait = false }) => {
+const BlogCard = ({ blog, portrait = false, featured = false }) => {
   const { featuredImage, label, title, description } = blog;
 
   return (
     <>
       <div
-        className={`pb-landscape ${
-          portrait ? 'lg:pb-portrait' : ''
-        } relative rounded overflow-hidden mb-5 lg:mb-10`}
+        className={`pb-landscape ${portrait ? 'lg:pb-portrait' : ''} 
+        ${featured ? 'lg:pb-x-landscape' : ''}
+        relative rounded overflow-hidden mb-5 lg:mb-10`}
       >
         <Image src={featuredImage} alt={title} layout="fill" objectFit="cover" priority />
       </div>

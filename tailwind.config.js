@@ -14,6 +14,7 @@ module.exports = {
       },
       padding: {
         landscape: '75%',
+        'x-landscape': '60%',
         portrait: '133%',
         square: '100%',
       },
