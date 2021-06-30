@@ -10,7 +10,7 @@ const TopBlogs = ({ content }) => {
           <div className="xl:col-start-1 xl:col-span-12 xl:grid-cols-12 lg:col-start-2 lg:col-span-10 lg:grid lg:grid-cols-10 lg:gap-5 lg:gap-y-25 lg:items-center">
             {content.blogs?.map((blog, id) => (
               <div className={styles.blog} key={id}>
-                <BlogCard blog={blog} portrait={id % 2 === 1} />
+                <BlogCard blog={blog} portrait={id === 1 || id === 2} />
               </div>
             ))}
           </div>
