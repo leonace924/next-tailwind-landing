@@ -79,6 +79,12 @@ const content = {
       },
     ],
   },
+  getMission: {
+    title: 'We’re on a mission to get people out more',
+    backgroundImage: './images/img-form-background.png',
+    ctaLabel: 'Became a Partner',
+    ctaLink: '/',
+  },
 };
 
 export default content;
