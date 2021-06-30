@@ -1,0 +1,31 @@
+.footer {
+  &List {
+    @apply lg:col-start-3 lg:col-span-10;
+
+    &Item {
+      h5 {
+        @apply text-sm font-medium mb-5 lg:mb-8;
+      }
+
+      ul {
+        li {
+          @apply text-sm text-light-gray mb-3 lg:mb-5;
+
+          &:last-of-type {
+            @apply mb-0;
+          }
+        }
+      }
+    }
+
+    &Bottom {
+      @apply pt-6 lg:flex lg:items-center lg:justify-between;
+
+      ul {
+        li {
+          @apply text-sm text-light-gray text-center lg:text-left;
+        }
+      }
+    }
+  }
+}
