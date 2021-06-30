@@ -1,0 +1,18 @@
+.landscapeBlog {
+  &:not(:last-of-type) {
+    @apply mb-7 lg:mb-0;
+  }
+
+  &:nth-of-type(odd) {
+    @apply xl:col-start-1 xl:col-span-4 lg:col-start-1 lg:col-span-5;
+  }
+  &:nth-of-type(even) {
+    @apply lg:col-start-8 lg:col-span-5 xl:col-start-7 xl:col-span-4;
+  }
+}
+
+.viceFeature {
+  &:not(:last-of-type) {
+    @apply mb-7 lg:mb-0;
+  }
+}

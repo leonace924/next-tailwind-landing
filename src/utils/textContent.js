@@ -83,6 +83,61 @@ const content = {
     label: 'Case Study',
     title: 'The unexpected live stream premiere of ‘Cold Lasagne Mouse Plate 1999’',
   },
+  bottomBlogs: {
+    landscapeBlogs: [
+      {
+        featuredImage: '/images/img-blog-top-1.jpg',
+        label: 'Interview',
+        title: 'Catching up with Gold-Diggers',
+        description:
+          'The team behind one of East Hollywood’s most innovative venues tells us about Gold-Diggers’ past and more importantly its future',
+      },
+      {
+        featuredImage: '/images/img-blog-top-4.jpg',
+        label: 'Company',
+        title: 'Safe gigs for women: let’s put stop sexual harassment in music industry',
+        description:
+          "We're taking a stand against sexual harassment and demanding safe gigs for women. Here's what we've done and what you can do to support us.",
+      },
+    ],
+    viceFeatures: {
+      title: 'Inside the VICE app',
+      features: [
+        {
+          featuredImage: '/images/img-vice-1.jpg',
+          title: 'Get a refund',
+          description: 'Risus semper vitae viverra sed vestibulum. Orci amet non aliquet quam.',
+        },
+        {
+          featuredImage: '/images/img-vice-2.jpg',
+          title: 'Waiting list',
+          description: 'Risus semper vitae viverra sed vestibulum. Orci amet non aliquet quam.',
+        },
+        {
+          featuredImage: '/images/img-vice-3.jpg',
+          title: 'Discover',
+          description: 'Risus semper vitae viverra sed vestibulum. Orci amet non aliquet quam.',
+        },
+      ],
+    },
+    portraitBlogs: [
+      {
+        featuredImage: '/images/img-mid-blog-4.jpg',
+        label: 'Company',
+        title: "Meet Jane Flowers, one of VICE's star designers",
+        description:
+          'The team behind one of East Hollywood’s most innovative venues tells us about Gold-Diggers’ past and more importantly its future',
+      },
+      {
+        featuredImage: '/images/img-mid-blog-3.jpg',
+        label: 'Company',
+        title: 'Where we’re at with DEI',
+        description:
+          "We're taking a stand against sexual harassment and demanding safe gigs for women. Here's what we've done and what you can do to support us.",
+      },
+    ],
+  },
+
   getMission: {
     title: 'We’re on a mission to get people out more',
     backgroundImage: './images/img-form-background.png',
