@@ -79,6 +79,10 @@ const content = {
       },
     ],
   },
+  caseStudy: {
+    label: 'Case Study',
+    title: 'The unexpected live stream premiere of ‘Cold Lasagne Mouse Plate 1999’',
+  },
   getMission: {
     title: 'We’re on a mission to get people out more',
     backgroundImage: './images/img-form-background.png',
