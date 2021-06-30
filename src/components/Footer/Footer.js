@@ -6,7 +6,7 @@ import styles from './Footer.module.scss';
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <div className="w-full px-6 py-12 lg:px-20 lg:py-20 md:px-12 z-1000">
+      <div className="w-full px-6 py-12 lg:px-20 lg:py-20 md:px-12 lg:pb-14">
         <div className="mx-auto max-w-7xl">
           <div className="lg:grid lg:grid-cols-12 lg:gap-4">
             <div className="flex items-center justify-center lg:justify-start lg:items-start lg:col-start-1 lg:col-span-2">
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
 
               <div className={styles.footerListBottom}>
-                <ul className="flex flex-wrap items-center justify-between mb-4 lg:inline-grid lg:grid-cols-3 lg:gap-9">
+                <ul className="flex flex-wrap items-center justify-between mb-4 lg:inline-grid lg:grid-cols-3 lg:gap-9 lg:mb-0">
                   <li>Privacy Policy</li>
                   <li>Terms of Use</li>
                   <li>Purchase Terms</li>

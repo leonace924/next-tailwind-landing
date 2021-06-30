@@ -10,7 +10,8 @@ module.exports = {
       fontSize: {
         '4xl': '2.5rem',
         '5xl': '3.125rem',
-        '6xl': '6.125rem',
+        '6xl': '5.625rem',
+        '7xl': '6.125rem',
       },
       padding: {
         landscape: '75%',
@@ -38,6 +39,9 @@ module.exports = {
       },
       colors: {
         'light-gray': '#666',
+      },
+      backgroundColor: {
+        'light-yellow': '#FEFEED',
       },
     },
     borderColor: (theme) => ({

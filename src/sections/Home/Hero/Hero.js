@@ -9,7 +9,7 @@ const Hero = ({ content }) => {
     >
       <div className="mx-auto max-w-7xl">
         <span className="text-base font-bold text-white uppercase lg:text-xl">{label}</span>
-        <h1 className="text-5xl leading-none text-white lg:text-6xl pt-3.5">{title}</h1>
+        <h1 className="text-5xl leading-none text-white lg:text-7xl pt-3.5">{title}</h1>
       </div>
     </div>
   );
