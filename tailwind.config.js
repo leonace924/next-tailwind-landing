@@ -36,7 +36,14 @@ module.exports = {
       width: {
         50: '12.5rem',
       },
+      colors: {
+        'light-gray': '#666',
+      },
     },
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      'light-gray': '#cccccc',
+    }),
   },
   variants: {
     extend: {},

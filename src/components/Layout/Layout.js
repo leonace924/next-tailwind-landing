@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 
 const Layout = ({ children, title = 'Landing Page Demo' }) => {
   return (
@@ -16,7 +17,10 @@ const Layout = ({ children, title = 'Landing Page Demo' }) => {
       <Header />
 
       <main>{children}</main>
-      <footer></footer>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
