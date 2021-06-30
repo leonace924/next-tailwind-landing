@@ -40,6 +40,45 @@ const content = {
     title: 'Our monthly newsletter, straight to your inbox',
     backgroundImage: './images/img-form-background.png',
   },
+  midBlogs: {
+    blogs: [
+      {
+        featuredImage: '/images/img-mid-blog-1.jpg',
+        label: 'Interview',
+        title: 'Id nunc nunc blandit in porta nulla ullamcorper. Netus non elit tortor nec.',
+        description:
+          'Enim malesuada egestas vitae tempor. Aliquam vulputate nisl dui fermentum, eget pharetra pharetra. Nisl, velit blandit amet, sagittis et mattis at vitae volutpat. Gravida morbi purus.',
+      },
+      {
+        featuredImage: '/images/img-mid-blog-2.jpg',
+        label: 'Company',
+        title: 'Id nunc nunc blandit in porta nulla ullamcorper. Netus non elit tortor nec.',
+        description:
+          'Enim malesuada egestas vitae tempor. Aliquam vulputate nisl dui fermentum, eget pharetra pharetra. Nisl, velit blandit amet, sagittis et mattis at vitae volutpat. Gravida morbi purus.',
+      },
+      {
+        featuredImage: '/images/img-mid-blog-3.jpg',
+        label: 'Interview',
+        title: 'Id nunc nunc blandit in porta nulla ullamcorper. Netus non elit tortor nec.',
+        description:
+          'Enim malesuada egestas vitae tempor. Aliquam vulputate nisl dui fermentum, eget pharetra pharetra. Nisl, velit blandit amet, sagittis et mattis at vitae volutpat. Gravida morbi purus.',
+      },
+      {
+        featuredImage: '/images/img-mid-blog-4.jpg',
+        label: 'Company',
+        title: "Meet Jane Flowers, one of VICE's star designers",
+        description:
+          'Enim malesuada egestas vitae tempor. Aliquam vulputate nisl dui fermentum, eget pharetra pharetra. Nisl, velit blandit amet, sagittis et mattis at vitae volutpat. Gravida morbi purus.',
+      },
+      {
+        featuredImage: '/images/img-mid-blog-1.jpg',
+        label: 'Company',
+        title: 'Exploring New York’s legendary scene',
+        description:
+          'Enim malesuada egestas vitae tempor. Aliquam vulputate nisl dui fermentum, eget pharetra pharetra. Nisl, velit blandit amet, sagittis et mattis at vitae volutpat. Gravida morbi purus.',
+      },
+    ],
+  },
 };
 
 export default content;
