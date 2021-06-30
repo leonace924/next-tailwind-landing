@@ -1,17 +1,6 @@
 .blog {
-  &Image {
-    @apply pb-landscape lg:pb-portrait;
-  }
-
-  &:first-of-type,
-  &:last-of-type {
-    .blogImage {
-      @apply pb-landscape;
-    }
-  }
-
   &:not(:last-of-type) {
-    @apply mb-7;
+    @apply mb-7 lg:mb-0;
   }
 
   &:nth-of-type(odd) {
