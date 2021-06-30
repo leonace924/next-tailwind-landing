@@ -4,9 +4,9 @@
   }
 
   &:nth-of-type(odd) {
-    @apply lg:col-start-1 lg:col-span-4 xl:col-start-1 xl:col-span-5;
+    @apply xl:col-start-1 xl:col-span-4 lg:col-start-1 lg:col-span-5;
   }
   &:nth-of-type(even) {
-    @apply xl:col-start-8 xl:col-span-5 lg:col-start-7 lg:col-span-4;
+    @apply lg:col-start-8 lg:col-span-5 xl:col-start-7 xl:col-span-4;
   }
 }
