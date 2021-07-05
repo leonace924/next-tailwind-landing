@@ -5,12 +5,12 @@ import TopBlogs from '@/src/sections/Home/TopBlogs/TopBlogs';
 import Newsletter from '@/src/sections/Home/Newsletter/Newsletter';
 import MidBlogs from '@/src/sections/Home/MidBlogs/MidBlogs';
 import CaseStudy from '@/src/sections/Home/CaseStudy/CaseStudy';
-import GetMission from '@/src/sections/Home/GetMission/GetMission';
+import GetMission from '@/src/components/GetMission/GetMission';
 import BottomBlogs from '@/src/sections/Home/BottomBlogs/BottomBlogs';
-import content from '@/src/utils/textContent';
+import content, { getMissionContent } from '@/src/utils/textContent';
 
 const Home = () => {
-  const { hero, topBlogs, newsletter, midBlogs, caseStudy, bottomBlogs, getMission } = content;
+  const { hero, topBlogs, newsletter, midBlogs, caseStudy, bottomBlogs } = content;
   return (
     <Layout>
       <Hero content={hero} />
@@ -19,7 +19,7 @@ const Home = () => {
       <MidBlogs content={midBlogs} />
       <CaseStudy content={caseStudy} />
       <BottomBlogs content={bottomBlogs} />
-      <GetMission content={getMission} />
+      <GetMission content={getMissionContent} />
     </Layout>
   );
 };

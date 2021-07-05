@@ -16,8 +16,8 @@ const WorkContent = () => {
               <Image src={ArrowUpIcon} alt="arrow-up" />
             </div>
 
-            <div className="lg:grid lg:grid-cols-12 lg:gap-5">
-              <div className={styles.workContent}>
+            <div className={styles.workContent}>
+              <div className="lg:grid lg:grid-cols-12 lg:gap-5">
                 <div className="xl:col-start-2 xl:col-span-10 lg:col-start-1 lg:col-span-12">
                   <span>Case Study</span>
                   <h1>
@@ -138,7 +138,7 @@ const WorkContent = () => {
 
                   <div className={styles.workContentReadMore}>
                     <h2>Read more about</h2>
-                    <div className="flex flex-wrap items-center">
+                    <div className="flex flex-wrap items-center md:justify-center ">
                       <RoundText>Case Study</RoundText>
                       <RoundText>Live Streaming</RoundText>
                       <RoundText>Arts &amp; Culture</RoundText>
