@@ -16,6 +16,7 @@ module.exports = {
         '8.5xl': '7.5rem',
       },
       padding: {
+        25: '6.25rem',
         landscape: '75%',
         'x-landscape': '60%',
         portrait: '133%',
@@ -29,9 +30,6 @@ module.exports = {
       },
       margin: {
         13: '3.125rem',
-        25: '6.25rem',
-      },
-      padding: {
         25: '6.25rem',
       },
       zIndex: {

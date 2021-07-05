@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex items-center justify-center lg:justify-start lg:items-start lg:col-start-1 lg:col-span-2">
               <Link href="/" passHref>
                 <a>
-                  <Logo color="black" />
+                  <Logo color="dark" />
                 </a>
               </Link>
             </div>
