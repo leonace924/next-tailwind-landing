@@ -1,3 +1,7 @@
 @import '~tailwindcss/base';
 @import '~tailwindcss/components';
 @import '~tailwindcss/utilities';
+
+.headroom--pinned.headroom--scrolled {
+  @apply bg-purple-100 text-black;
+}

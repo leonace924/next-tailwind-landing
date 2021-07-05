@@ -1,7 +1,9 @@
 import React from 'react';
 import Layout from '@/components/Layout/Layout';
 import Hero from '@/src/sections/Interview/Hero/Hero';
-import { articleContent } from '@/src/utils/textContent';
+import MidBlogs from '@/src/sections/Interview/MidBlogs/MidBlogs';
+import GetMission from '@/src/components/GetMission/GetMission';
+import { articleContent, getMissionContent } from '@/src/utils/textContent';
 
 const Home = () => {
   const { title, relatedTopics, articles } = articleContent;
@@ -9,6 +11,8 @@ const Home = () => {
   return (
     <Layout>
       <Hero title={title} relatedTopics={relatedTopics} />
+      <MidBlogs content={articles} />
+      <GetMission content={getMissionContent} />
     </Layout>
   );
 };

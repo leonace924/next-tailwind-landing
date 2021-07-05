@@ -138,7 +138,7 @@ const WorkContent = () => {
 
                   <div className={styles.workContentReadMore}>
                     <h2>Read more about</h2>
-                    <div className="flex flex-wrap items-center md:justify-center ">
+                    <div className="flex flex-wrap items-center md:justify-center">
                       <RoundText>Case Study</RoundText>
                       <RoundText>Live Streaming</RoundText>
                       <RoundText>Arts &amp; Culture</RoundText>
