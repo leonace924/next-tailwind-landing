@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Headroom from 'react-headroom';
 import Logo from '@/components/Logo/Logo';
 
-const Header = ({ mode }) => {
+const Header = ({ mode = 'white' }) => {
   const [pinned, setPinned] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ const Header = ({ mode }) => {
             <div
               className={`${
                 mode === 'dark' ? 'text-black' : 'text-white'
-              }text-base underline lg:text-xl`}
+              } text-base underline lg:text-xl`}
             >
               Partner with VICE
             </div>
