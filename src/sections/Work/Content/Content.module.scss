@@ -1,0 +1,39 @@
+.workContent {
+  span {
+    &:first-of-type {
+      @apply block text-center text-base font-bold text-black uppercase lg:text-xl;
+    }
+  }
+
+  span + h1 {
+    @apply mt-3 lg:mt-5;
+  }
+
+  h1 {
+    @apply text-center text-5xl leading-none text-black max-w-4xl mx-auto mb-24 lg:text-7xl lg:mb-36;
+  }
+
+  h2 {
+    @apply text-center text-3xl text-black leading-tight mx-auto mb-11 max-w-xl lg:text-4.5xl lg:mb-13;
+  }
+
+  h3 {
+    @apply text-center text-3xl text-black leading-extra-tight max-w-4xl mx-auto mb-20 lg:text-4xl lg:mb-32;
+  }
+
+  h4 {
+    @apply text-center text-2xl text-black leading-extra-tight max-w-4xl mx-auto mb-20 lg:text-3xl lg:mb-32;
+  }
+
+  p {
+    @apply text-base text-black mx-auto mb-20 max-w-xl lg:text-lg lg:mb-32;
+  }
+
+  blockquote {
+    @apply text-center text-4xl text-black leading-none	mx-auto mb-20 max-w-4xl lg:text-6xl lg:mb-32;
+  }
+
+  &ReadMore {
+    @apply pb-20 lg:pb-32;
+  }
+}

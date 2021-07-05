@@ -9,9 +9,11 @@ module.exports = {
     extend: {
       fontSize: {
         '4xl': '2.5rem',
+        '4.5xl': '2.8125rem',
         '5xl': '3.125rem',
         '6xl': '5.625rem',
         '7xl': '6.125rem',
+        '8.5xl': '7.5rem',
       },
       padding: {
         landscape: '75%',
@@ -26,6 +28,7 @@ module.exports = {
         'extra-tight': '1.125',
       },
       margin: {
+        13: '3.125rem',
         25: '6.25rem',
       },
       zIndex: {
@@ -36,6 +39,9 @@ module.exports = {
       },
       width: {
         50: '12.5rem',
+      },
+      maxWidth: {
+        '3.25xl': '50rem',
       },
       colors: {
         'light-gray': '#666',
