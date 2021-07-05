@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 
-const Layout = ({ children, title = 'Landing Page Demo' }) => {
+const Layout = ({ title = 'Landing Page Demo', mode, children }) => {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ const Layout = ({ children, title = 'Landing Page Demo' }) => {
         <meta name="Description" content="Landing page demo" />
       </Head>
 
-      <Header />
+      <Header mode={mode} />
 
       <main>{children}</main>
 
