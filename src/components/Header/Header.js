@@ -13,15 +13,16 @@ const Header = ({ mode = 'white' }) => {
 
       if (window.pageYOffset > 100) {
         setSticky(true);
-        setHeaderMode('dark');
+        setHeaderMode('black');
       } else {
         setSticky(false);
+        if (mode === 'black') return;
         setHeaderMode('white');
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-  }, []);
+  }, [mode]);
 
   return (
     <div
@@ -31,9 +32,9 @@ const Header = ({ mode = 'white' }) => {
     >
       <div className="w-full p-6 lg:px-20 md:px-12">
         <div className="mx-auto max-w-7xl">
-          <div className="flex items-center justify-between w-full lg:grid lg:grid-cols-12 lg:gap-5">
+          <div className="flex flex-row-reverse items-center justify-between w-full lg:grid lg:grid-cols-12 lg:gap-5">
             <div className="lg:col-start-1 xl:col-span-3 lg:col-span-4">
-              <Search />
+              <Search mode={headerMode} />
             </div>
 
             <div className="transition ease-in-out lg:col-start-5 xl:col-start-4 lg:col-span-4 xl:col-span-6 lg:text-center">
@@ -44,10 +45,10 @@ const Header = ({ mode = 'white' }) => {
               </Link>
             </div>
 
-            <div className="lg:col-start-9 lg:col-span-4 xl:col-start-10 xl:col-span-3 lg:text-right">
+            <div className="hidden lg:block lg:col-start-9 lg:col-span-4 xl:col-start-10 xl:col-span-3 lg:text-right">
               <div
                 className={`${
-                  headerMode === 'dark' ? 'text-black' : 'text-white'
+                  headerMode === 'black' ? 'text-black' : 'text-white'
                 } text-base underline lg:text-xl transition	ease-in-out`}
               >
                 Partner with VICE

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Search = () => {
+const Search = ({ mode }) => {
   return (
-    <div className="relative w-full text-white focus-within:text-gray-400">
+    <div className={`relative w-full text-${mode}`}>
       <span className="absolute inset-y-0 left-0 flex items-center pl-2">
         <button className="p-1 focus:outline-none focus:shadow-outline">
           <svg
@@ -24,7 +24,7 @@ const Search = () => {
       <input
         type="search"
         name="q"
-        className="w-full py-2 pl-10 pr-4 text-sm text-white placeholder-white bg-transparent border border-white rounded-full focus:outline-none focus:bg-white focus:text-gray-900"
+        className={`w-full py-2 pl-10 pr-4 text-sm text-${mode} placeholder-${mode} bg-transparent border border-${mode} rounded-full focus:outline-none focus:text-gray-900`}
         placeholder="Search the blog"
         autoComplete="off"
       />

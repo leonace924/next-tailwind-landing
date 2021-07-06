@@ -9,7 +9,7 @@ const Home = () => {
   const { title, relatedTopics, articles } = articleContent;
 
   return (
-    <Layout mode="dark">
+    <Layout mode="black">
       <Hero title={title} relatedTopics={relatedTopics} />
       <MidBlogs content={articles} />
       <GetMission content={getMissionContent} />
