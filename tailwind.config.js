@@ -49,6 +49,7 @@ module.exports = {
       },
       backgroundColor: {
         'light-yellow': '#FEFEED',
+        'sticky-light': 'rgba(237, 237, 255, 0.9)',
       },
     },
     borderColor: (theme) => ({
