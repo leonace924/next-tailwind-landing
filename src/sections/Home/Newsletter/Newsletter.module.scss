@@ -2,7 +2,7 @@
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       input {
-        @apply lg:pl-28;
+        @apply pl-20 lg:pl-28;
       }
     }
   }
