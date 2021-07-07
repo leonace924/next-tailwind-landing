@@ -33,7 +33,7 @@ const Header = ({ mode = 'white' }) => {
       <div className="w-full p-6 lg:px-20 md:px-12">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-row-reverse items-center justify-between w-full lg:grid lg:grid-cols-12 lg:gap-5">
-            <div className="lg:col-start-1 xl:col-span-3 lg:col-span-4">
+            <div className="ml-5 sm:ml-0 lg:col-start-1 xl:col-span-3 lg:col-span-4">
               <Search mode={headerMode} />
             </div>
 
