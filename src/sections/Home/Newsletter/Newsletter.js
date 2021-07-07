@@ -44,7 +44,7 @@ const Newsletter = ({ content }) => {
 
               <div className={styles.phoneInput}>
                 <div className="relative mb-4 lg:mb-7">
-                  <div className="absolute top-0 bottom-0 left-0">
+                  <div className="absolute top-0 bottom-0 left-0 flex">
                     <select className="text-xl bg-transparent focus:outline-none lg:text-3xl">
                       <option>+44</option>
                       <option>+1</option>
