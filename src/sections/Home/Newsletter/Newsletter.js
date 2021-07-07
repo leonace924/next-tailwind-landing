@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Checkbox } from '@/components/Common';
+import styles from './Newsletter.module.scss';
 
 const Newsletter = ({ content }) => {
   const { title, backgroundImage } = content;
@@ -41,21 +42,23 @@ const Newsletter = ({ content }) => {
                 />
               </div>
 
-              <div className="relative mb-4 lg:mb-7">
-                <div className="absolute top-0 left-0">
-                  <select className="text-xl bg-transparent focus:outline-none lg:text-3xl">
-                    <option>+44</option>
-                    <option>+1</option>
-                    <option>+34</option>
-                  </select>
-                </div>
+              <div className={styles.phoneInput}>
+                <div className="relative mb-4 lg:mb-7">
+                  <div className="absolute top-0 left-0">
+                    <select className="text-xl bg-transparent focus:outline-none lg:text-3xl">
+                      <option>+44</option>
+                      <option>+1</option>
+                      <option>+34</option>
+                    </select>
+                  </div>
 
-                <input
-                  className="w-full py-1 pl-16 pr-2 text-xl leading-tight text-black placeholder-black bg-transparent border-b border-black appearance-none lg:pl-20 lg:text-3xl focus:outline-none"
-                  type="number"
-                  placeholder=""
-                  aria-label="Phone number"
-                />
+                  <input
+                    className="w-full py-1 pl-16 pr-2 text-xl leading-tight text-black placeholder-black bg-transparent border-b border-black appearance-none lg:pl-24 lg:text-3xl focus:outline-none"
+                    type="number"
+                    placeholder=""
+                    aria-label="Phone number"
+                  />
+                </div>
               </div>
 
               <div className="mt-4 text-center lg:mt-7">
