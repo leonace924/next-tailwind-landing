@@ -1,7 +1,9 @@
 .phoneInput {
-  @media screen and (-webkit-max-device-pixel-ratio: 1) and (min-color-index: 0) {
-    input {
-      @apply lg:pl-28;
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      input {
+        @apply lg:pl-28;
+      }
     }
   }
 }
