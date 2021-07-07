@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Search.module.scss';
 
 const Search = ({ mode }) => {
   return (
@@ -21,13 +22,16 @@ const Search = ({ mode }) => {
           </svg>
         </button>
       </span>
-      <input
-        type="search"
-        name="q"
-        className={`w-full py-2 pl-10 pr-4 text-sm text-${mode} placeholder-${mode} bg-transparent border border-${mode} rounded-full focus:outline-none focus:text-gray-900`}
-        placeholder="Search the blog"
-        autoComplete="off"
-      />
+
+      <div className={mode === 'black' ? styles.searchInputBlack : styles.searchInputWhite}>
+        <input
+          type="search"
+          name="q"
+          className={`w-full py-2 pl-10 pr-4 text-sm text-${mode} bg-transparent border border-${mode} rounded-full focus:outline-none focus:text-gray-900`}
+          placeholder="Search the blog"
+          autoComplete="off"
+        />
+      </div>
     </div>
   );
 };
